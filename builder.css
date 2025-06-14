@@ -1,0 +1,789 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.first-nav{
+    height: 60px;
+    border: 0.4px solid #777777; 
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+i{
+    font-size: 14px;
+    color: grey;
+    gap: 30px;
+    padding: 10px 10px ;
+    
+}
+.icons{
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+:hover i:hover{
+    color: #fab700;
+    transition: 0.5s;
+}
+.but{
+    margin-top: -28px;
+    margin-left: 1400px;
+}
+button{
+    padding: 5px 5px;
+    width: 100px;
+    font-size: 18px;
+    border-radius:6px;
+}
+.Quote{
+    background-color: #fab700;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #fab700;
+}
+:hover .Quote:hover{
+    border-radius: 1px solid #fab700;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.angrez{
+    border-radius:1px solid grey;
+}
+.second-nav{
+    height: 100px;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgb(83, 82, 82);
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    color: #777777;
+}
+header{
+    height: 100px;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgb(83, 82, 82);
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    color: #777777;
+}
+
+.img{
+ position: absolute;
+ top: 30px;
+ left: 80px;
+ height: 60px;
+}
+.an{
+ position: absolute;
+ left: 800px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ color: black;
+}
+.am{
+ position: absolute;
+ left: 900px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ color: black;
+}
+.ab{
+ position: absolute;
+ left: 1000px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ color: black;
+}
+.ac{
+ position: absolute;
+ left: 1100px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ color: black;
+}
+.ax{
+ position: absolute;
+ left: 1200px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ color: black;
+}
+.av{
+ position: absolute;
+ left: 1300px;
+ top: 50px;
+ gap: 80px;
+ display: flex;
+ list-style: none;
+ font-style: none;
+ color: black;
+}
+:hover a:hover{
+    color: #fab700;
+    list-style-type: none;
+    transition: 0.7s;
+}
+.i{
+ position: absolute;
+ left: 1400px;
+ top: 45px;
+ gap: 80px;
+ display: flex;
+ list-style: none;
+ font-style: none;
+ color: rgb(0, 0, 0);
+}
+.bg{
+    width: 100%;
+    background-attachment: fixed;
+}
+.main{
+    position: relative;
+}
+.build{
+    position: absolute;
+    color: white;
+    bottom: 480px;
+    left: 450px;
+    font-size: 100px;
+    font-family: "Lato", sans-serif;
+}
+.dream{
+    background-color: #fab700;
+    position: absolute;
+    bottom: 480px;
+    left: 960px;
+    font-size:100px ;
+    border-radius: 5px;
+    font-family: "Lato", sans-serif;
+}
+.iz{
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    font-size:30px ;
+    font-family: "Lato", sans-serif; 
+    color: white;
+}
+.im{
+    position: absolute;
+    bottom: 200px;
+    left: 760px;
+    font-family: "Lato", sans-serif; 
+    color: #fab700;
+    background-color: #222222;
+    width: 200px;
+    height: 60px;
+}
+:hover.im:hover{
+    color: black;
+    background-color: #fab700;
+    transition: 0.7s;
+}
+.Offers{
+    height: 1000px;
+    position: relative;
+}
+.serve{
+    font-family: "Oswald", sans-serif;
+    font-size: 56px;
+    color: #222222;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.desc{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    position: absolute;
+    top: 310px;
+    left: 500px;
+}
+.box{
+   height: 300px;
+   position: absolute;
+   top: 380px;
+   left: 400px;
+   width: 300px;
+   position: relative;
+   background-color: white;
+   border-radius: 10px;
+}
+.service{
+    position: absolute;
+    left: 110px;
+    top: 40px;
+}
+.p{
+    font-size: 14px;
+    font-family: #000;
+    line-height: 24px; 
+    position: absolute;
+    top: 130px;
+    color: #000;
+    left: 60px;
+    right: 50px;
+}
+.box2{
+    position: absolute;
+    left: 720px;
+    background-color: white;
+}
+.png{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    top: 100px;
+}
+.png1{
+    position: absolute;
+    left: 70px;
+}
+.box3{
+ position: absolute;
+ left: 1040px; 
+}
+:hover.box:hover{
+    box-shadow: 0px 4px 15px black;
+    transition: 0.8s;
+}
+.main2{
+    height: 800px;
+}
+nav{
+    background-color: white;
+}
+.dec{
+    position: absolute;
+    left: 650px;
+}
+.builder{
+    position: relative;
+}
+.web{
+    position:absolute;
+    top: 350px;
+    height: 300px;
+    width: 570px;
+    vertical-align: middle;
+    border-style: none;
+}
+.web2{
+    position: absolute;
+    left: 570px;
+}
+.web3{
+    position: absolute;
+    left: 1109px;
+}
+.web4{
+    position: absolute;
+    top: 650px;
+}
+.web5{
+    position: absolute;
+    left: 570px;
+    top: 650px;
+}
+.web6{
+    position: absolute;
+    left: 1109px;
+    top: 650px;  
+}
+.h1{
+    position: absolute;
+    top: 450px;
+    color: #000;
+    font-size: 25px;
+    left: 85px;
+    display: none;
+}
+.e{
+    position: absolute;
+    top: 500px;
+    color: #000;
+    font-size: 15px;
+    left: 75px;
+    display: none;
+}
+.h2{
+    position: absolute;
+    left: 670px;
+    display: none;
+}
+.f{
+    position: absolute;
+    left: 640px; 
+    display: none;
+}
+.h3{
+    position: absolute;
+    left: 1240px;
+    display: none;
+}
+.g{
+    position: absolute;
+    left: 1220px;
+    display: none;
+}
+.h4{
+ position: absolute;
+ top: 800px;
+ display: none;
+}
+.h{
+ position: absolute;
+ top: 850px;
+ display: none;
+}
+.h5{
+    position: absolute;
+    left: 670px;
+    top: 800px;
+    display: none;
+}
+.i{
+    position: absolute;
+    left: 660px;
+    top: 850px;
+    display: none;
+}
+.h6{
+    position: absolute;
+    left: 1240px;
+    top: 800px;
+    display: none;
+}
+.j{
+    position: absolute;
+    left: 1240px;
+    top: 850px;
+    display: none;
+}
+:hover.web8:hover{
+ display: block;
+ color: #000;
+ background-color: #fab700;
+ 
+}
+.main3{
+    height: 1200px;
+    position: relative;
+}
+.serve2{
+    font-size: 36px;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    font-family: "Oswald", sans-serif;
+    font-size: 56px;
+    color: #222222;
+}
+.desc2{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    position: absolute;
+    top: 430px;
+    left: 680px;
+}
+.w{
+    position: absolute;
+    top: 550px;
+    left: 190px;
+    height: 50vh;
+}
+.w1{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    height: 50vh;
+}
+.w2{
+    position: absolute;
+    top: 550px;
+    left: 910px;
+    height: 50vh;
+}
+.w3{
+    position: absolute;
+    top: 550px;
+    left: 1270px;
+    height: 50vh;
+}
+.IMG{
+ position: absolute;
+ left: -60px;
+}
+.em{
+    position: absolute;
+    color: #000;
+    font-size:30px;
+    top: 1010px;
+    left: 300px;
+    width: 1000px;
+    bottom: 300px;
+}
+:hover.w:hover{
+    box-shadow: 0px 15px 15px #777777;
+    height: 51vh;
+    transition: 0.60s;
+}
+.e1{
+       font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    position: absolute;
+    top: 1050px;
+    left: 300px;
+    width: 1000px;
+}
+.em1{
+  position: absolute;
+  left: 650px;
+}
+.e2{
+  position: absolute;
+  left: 650px;
+}
+.em2{
+  position: absolute;
+  left: 1000px;
+}
+.e3{
+  position: absolute;
+  left: 1000px;
+}
+.em3{
+  position: absolute;
+  left: 1350px;
+}
+.e4{
+      position: absolute;
+  left: 1350px;
+}
+.fan3{
+    height: 500px;
+}
+.followers{
+    background-color: #fab700;
+    height: 400px;
+    align-items: center;
+    position: relative;
+}
+.follow{
+    position: absolute;
+    top:80px ;
+    left: 70px;
+    font-size: 70px;
+    gap: 30px;
+}
+span{
+    font-size: 20px;
+}
+.ow{
+    position: absolute;
+    left: 340px;
+}
+.ow1{
+    position: absolute;
+    left:680px ;
+}
+.ow2{
+    position: absolute;
+    left: 1060px;
+}
+.ow3{
+    position: absolute;
+    left: 1330px;
+}
+.Features{
+    height: 900px;
+    position: relative;
+}
+.features{
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-size: 46px;
+    color: #222222;
+    position: absolute;
+    left: 490px;
+}
+.asap{
+ font-size: 20px;
+ position: absolute;
+ left: 600px;
+ top: 100px;
+ color: #777777;
+}
+.technicians{
+    border: 0.1px solid #777777;
+    position: absolute;
+    top: 200px;
+    padding: 20px 20px ;
+    left: 140px;
+    padding-right: 200px;
+    height: 250px;
+    padding-left: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+.user{
+    color: #000;
+    font-size: 50px;
+}
+.description{
+    font-size: 20px;
+    color: #777777;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+.tech1{
+    position: absolute;
+    left: 620px;
+}
+.tech2{
+    position: absolute;
+    left: 1120px;
+}
+.tech3{
+    position: absolute;
+    top: 480px;
+    padding-right: 240px;
+
+}
+.tech4{
+    position: absolute;
+    left: 620px;
+    top: 480px;
+}
+.tech5{
+    position: absolute;
+    left: 1120px;
+    top: 480px;
+    padding-right: 170px;
+}
+:hover.technicians:hover{
+    box-shadow: 5px 5px 5px #afacac;
+    transition: 0.8s;
+    color: #fab700;
+}
+:hover.technicians,h2:hover{
+    color: #fab700;
+    transition: 0.8s;
+}
+.by{
+    background: #f9f9ff;
+    position: relative;
+    height: 650px;
+    align-items: center;
+}
+.test{
+    height: 250px;
+    border: 0.3px solid #222222;
+    width: 700px;
+    position: absolute;
+    top: 225px;
+    left: 80px;
+    border-radius: 15px;
+    background-color:#f9f9ff ;
+}
+.sasti{
+ position: absolute;
+ top: 40px;
+ left: 50px;
+ height: 100px;
+}
+p{
+    font-size: 20px;
+    position: absolute;
+    left: 175px;
+    top: 60px;
+    color: #afacac;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.name{
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-size: 46px;
+    color: #222222;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+.ceo{
+    position:absolute;
+    top: 200px;
+    font-size: 20px;
+}
+.test1{
+    position:absolute;
+    left: 900px;
+    
+}
+:hover.test:hover{
+    box-shadow: 0px 4px 15px #777777;
+    transition: 0.9s;
+    background-color: white;
+}
+.bus{
+    height: 400px;
+    position: relative;
+}
+.c{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+.logo1{
+    height: 110px;
+    color: #777777;
+}
+.logo2{
+    margin-left: 80px;
+}
+:hover.logo1:hover{
+    color: #000;
+}
+.footer {
+  background: #1a1a1a;
+  padding: 60px 0 30px;
+  color: #ccc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 280px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.footer-col .about {
+  color: #c4c4c4;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Arial Narrow Bold', sans-serif; ;
+  position: absolute;
+  top: -40px;
+}
+
+.footer-col .lorem {
+  font-size: 15px;
+  position: absolute;
+  left: -10px;
+  right: 150px;
+  top: 10px;
+}
+
+.footer-col .phone {
+  color: #ffc107;
+  font-weight: bold;
+  margin-top: 10px;
+  position: absolute;
+  left: 30px;
+}
+.footer-col .number {
+  color: #ffc107;
+  font-weight: bold;
+  margin-top: 10px;
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+.footer-col .lor {
+  font-size: 15px;
+  position: absolute;
+  left: -10px;
+  right: 150px;
+  top: -10px;
+}
+
+.newsletter .subscribe-form {
+  display: flex;
+  margin-top: 55px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  flex: 1;
+  outline: none;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffc107;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.subscribe-form i {
+  color: #000;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  height: 200px;
+}
+
+.footer-bottom .copy {
+  font-size: 14px;
+}
+
+.footer-bottom .highlight {
+  color: #ffc107;
+}
+
+.footer-bottom .socials {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  margin-left: 1400px;
+  border-radius: 2px;
+  text-decoration: none;
+  display:flex;
+  position: absolute;
+  top: 40px;
+ gap: 35px;
+}
+
+.footer-bottom .socials a :hover {
+  background: #ffc107;
+  color: #000;
+}
+.copy{
+    position: absolute;
+}
